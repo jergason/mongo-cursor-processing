@@ -4,7 +4,7 @@
   "description": "Stream documents from a mongodb cursor through a worker queue with a constant level of concurrency.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*"
   },
   "keywords": [
     "mongo",
@@ -15,5 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
   }
 }
