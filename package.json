@@ -1,7 +1,7 @@
 {
-  "name": "mongo-stream",
+  "name": "mongo-cursor-processing",
   "version": "0.1.0",
-  "description": "Stream documents from a mongodb cursor through a worker queue with a constant level of concurrency.",
+  "description": "Process documents from a mongodb cursor with a constant level of concurrency without having all in memory.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*"
