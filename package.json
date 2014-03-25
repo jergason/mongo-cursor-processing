@@ -1,0 +1,19 @@
+{
+  "name": "mongo-stream",
+  "version": "0.1.0",
+  "description": "Stream documents from a mongodb cursor through a worker queue with a constant level of concurrency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "stream",
+    "cursor"
+  ],
+  "author": "Jamison Dance",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.2.10"
+  }
+}
