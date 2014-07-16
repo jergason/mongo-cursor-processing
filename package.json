@@ -2,6 +2,7 @@
   "name": "mongo-cursor-processing",
   "version": "0.1.0",
   "description": "Process documents from a mongodb cursor with a constant level of concurrency without having all in memory.",
+  "repository": "git@github.com:jergason/mongo-cursor-processing.git",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*"
