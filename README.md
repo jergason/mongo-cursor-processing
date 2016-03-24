@@ -49,7 +49,7 @@ function workOnPerson(person, cb) {
   cb()
 }
 
-mp(personCursor, workOnPerson, function(err) {
+mp(cursor, workOnPerson, function(err) {
   if (err) {
     console.error('on noes, an error', err)
     process.exit(1)
